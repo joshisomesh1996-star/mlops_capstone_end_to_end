@@ -209,3 +209,5 @@ credentials.txt
 notebooks/
 project_flow.txt
 local_s3/
+/data/
+/models/
