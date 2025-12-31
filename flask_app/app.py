@@ -86,6 +86,7 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 dagshub_url = "https://dagshub.com"
 repo_owner = "joshi.somesh1996"
 repo_name = "mlops_capstone_end_to_end"
+mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 # -------------------------------------------------------------------------------------
 
 
