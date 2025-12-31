@@ -1,10 +1,12 @@
 import numpy as np
 import pandas as pd
+import sklearn
 import pickle
 from sklearn.linear_model import LogisticRegression
 import yaml
 from src.logger import logging
 
+print("TRAINING sklearn version:", sklearn.__version__)
 
 def load_data(file_path: str) -> pd.DataFrame:
     """Load data from a CSV file."""
