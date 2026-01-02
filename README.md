@@ -35,8 +35,9 @@ The deployed system simulates a **real production ML API** rather than a researc
 
 ---
 
-##  Repository Structure
+## 📁 Repository Structure
 
+```text
 .
 ├── .github/
 │   └── workflows/
@@ -61,7 +62,6 @@ The deployed system simulates a **real production ML API** rather than a researc
 ├── params.yaml
 ├── requirements.txt
 └── README.md
-
 
 ---
 
